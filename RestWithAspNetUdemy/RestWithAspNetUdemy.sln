@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestWithAspNetUdemy", "RestWithAspNetUdemy\RestWithAspNetUdemy.csproj", "{125AB4DC-9435-4786-94E7-C3586360144C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{125AB4DC-9435-4786-94E7-C3586360144C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{125AB4DC-9435-4786-94E7-C3586360144C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{125AB4DC-9435-4786-94E7-C3586360144C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{125AB4DC-9435-4786-94E7-C3586360144C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B145CE7E-D583-4649-BE10-322E814AC66F}
+	EndGlobalSection
+EndGlobal
