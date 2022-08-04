@@ -28,15 +28,23 @@ namespace RestWithAspNetUdemy.Controllers
             }
             return BadRequest("Invalid Input");
         }
-
-        private int ConvertToDeciaml(string firstNumber)
+        private bool IsNumeric(string strNumber)
         {
-            throw new NotImplementedException();
+            double number;
+            bool IsNumber = double.TryParse(strNumber, System.Globalization.NumberStyles.Any, 
+                System.Globalization.NumberFormatInfo.InvariantInfo, out number);
+            return IsNumber;
+        }
+        private decimal ConvertToDeciaml(string strNumber)
+        {
+            decimal decimalValue;
+            if(decimal.TryParse(strNumber, out decimalValue))
+            {
+                return decimalValue;
+            }
+            return 0;
         }
 
-        private bool IsNumeric(string firstNumber)
-        {
-            throw new NotImplementedException();
-        }
+
     }
 }
